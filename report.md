@@ -144,7 +144,7 @@ Here's a [link to my project video result](./test_videos/project_video_result.mp
 alt="Video Track 1" width="640" height="360" border="1" /></a>
 
 
-##Discussion
+## Discussion
 The model should be tested on different types of roads, especially when there are more than one car occluded by another. It would be more challenge if Udacity provide a different video for robust testing and let students do the hard negative mining by themselves.    
 
 The linear support vector classifier is not a good classifier in image classification problem. We used SVC because it is quite fast for sliding window technique. But even that our detection process worked pretty slow (about 0.71 fps). The code should be optimized and re-implement in C++ for better efficiency.   
